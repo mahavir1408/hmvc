@@ -1,0 +1,58 @@
+[Wed Jan 08 19:01:24 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_ECHO in C:\\wamp\\www\\hmvc\\application\\modules\\admin\\controllers\\pages.php on line 24
+[Wed Jan 08 19:01:24 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Wed Jan 08 19:01:24 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\hmvc\\index.php:0
+[Wed Jan 08 19:01:24 2014] [error] [client 127.0.0.1] PHP   2. require_once() C:\\wamp\\www\\hmvc\\index.php:202
+[Thu Jan 09 11:48:27 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_VARIABLE in C:\\wamp\\www\\hmvc\\application\\modules\\admin\\models\\pages_model.php on line 34
+[Thu Jan 09 11:48:27 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Jan 09 11:48:27 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\hmvc\\index.php:0
+[Thu Jan 09 11:48:27 2014] [error] [client 127.0.0.1] PHP   2. require_once() C:\\wamp\\www\\hmvc\\index.php:202
+[Thu Jan 09 11:48:27 2014] [error] [client 127.0.0.1] PHP   3. Pages->__construct() C:\\wamp\\www\\hmvc\\system\\core\\CodeIgniter.php:308
+[Thu Jan 09 11:48:27 2014] [error] [client 127.0.0.1] PHP   4. MX_Loader->model() C:\\wamp\\www\\hmvc\\application\\modules\\admin\\controllers\\pages.php:10
+[Thu Jan 09 11:48:27 2014] [error] [client 127.0.0.1] PHP   5. Modules::load_file() C:\\wamp\\www\\hmvc\\application\\third_party\\MX\\Loader.php:206
+[Fri Jan 10 12:36:02 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_WHILE in C:\\wamp\\www\\hmvc\\application\\modules\\admin\\models\\pages_model.php on line 29
+[Fri Jan 10 12:36:02 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Jan 10 12:36:02 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\hmvc\\index.php:0
+[Fri Jan 10 12:36:02 2014] [error] [client 127.0.0.1] PHP   2. require_once() C:\\wamp\\www\\hmvc\\index.php:202
+[Fri Jan 10 12:36:02 2014] [error] [client 127.0.0.1] PHP   3. Pages->__construct() C:\\wamp\\www\\hmvc\\system\\core\\CodeIgniter.php:308
+[Fri Jan 10 12:36:02 2014] [error] [client 127.0.0.1] PHP   4. MX_Loader->model() C:\\wamp\\www\\hmvc\\application\\modules\\admin\\controllers\\pages.php:10
+[Fri Jan 10 12:36:02 2014] [error] [client 127.0.0.1] PHP   5. Modules::load_file() C:\\wamp\\www\\hmvc\\application\\third_party\\MX\\Loader.php:206
+[Fri Jan 10 14:14:22 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '}' in C:\\wamp\\www\\hmvc\\application\\modules\\admin\\models\\pages_model.php on line 45
+[Fri Jan 10 14:14:22 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Jan 10 14:14:22 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\hmvc\\index.php:0
+[Fri Jan 10 14:14:22 2014] [error] [client 127.0.0.1] PHP   2. require_once() C:\\wamp\\www\\hmvc\\index.php:202
+[Fri Jan 10 14:14:22 2014] [error] [client 127.0.0.1] PHP   3. Pages->__construct() C:\\wamp\\www\\hmvc\\system\\core\\CodeIgniter.php:308
+[Fri Jan 10 14:14:22 2014] [error] [client 127.0.0.1] PHP   4. MX_Loader->model() C:\\wamp\\www\\hmvc\\application\\modules\\admin\\controllers\\pages.php:10
+[Fri Jan 10 14:14:22 2014] [error] [client 127.0.0.1] PHP   5. Modules::load_file() C:\\wamp\\www\\hmvc\\application\\third_party\\MX\\Loader.php:206
+[Fri Jan 10 18:14:38 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in C:\\wamp\\www\\hmvc\\application\\modules\\admin\\controllers\\pages.php on line 36
+[Fri Jan 10 18:14:38 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Jan 10 18:14:38 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\hmvc\\index.php:0
+[Fri Jan 10 18:14:38 2014] [error] [client 127.0.0.1] PHP   2. require_once() C:\\wamp\\www\\hmvc\\index.php:202
+[Fri Jan 10 18:21:09 2014] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function initialize() on a non-object in C:\\wamp\\www\\hmvc\\application\\modules\\admin\\controllers\\pages.php on line 34
+[Fri Jan 10 18:21:09 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Jan 10 18:21:09 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\hmvc\\index.php:0
+[Fri Jan 10 18:21:09 2014] [error] [client 127.0.0.1] PHP   2. require_once() C:\\wamp\\www\\hmvc\\index.php:202
+[Fri Jan 10 18:21:09 2014] [error] [client 127.0.0.1] PHP   3. call_user_func_array() C:\\wamp\\www\\hmvc\\system\\core\\CodeIgniter.php:359
+[Fri Jan 10 18:21:09 2014] [error] [client 127.0.0.1] PHP   4. Pages->index() C:\\wamp\\www\\hmvc\\system\\core\\CodeIgniter.php:359
+[Fri Jan 10 18:21:18 2014] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function initialize() on a non-object in C:\\wamp\\www\\hmvc\\application\\modules\\admin\\controllers\\pages.php on line 34
+[Fri Jan 10 18:21:18 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Jan 10 18:21:18 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\hmvc\\index.php:0
+[Fri Jan 10 18:21:18 2014] [error] [client 127.0.0.1] PHP   2. require_once() C:\\wamp\\www\\hmvc\\index.php:202
+[Fri Jan 10 18:21:18 2014] [error] [client 127.0.0.1] PHP   3. call_user_func_array() C:\\wamp\\www\\hmvc\\system\\core\\CodeIgniter.php:359
+[Fri Jan 10 18:21:18 2014] [error] [client 127.0.0.1] PHP   4. Pages->index() C:\\wamp\\www\\hmvc\\system\\core\\CodeIgniter.php:359
+[Fri Jan 10 18:48:01 2014] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function item() on a non-object in C:\\wamp\\www\\hmvc\\application\\modules\\admin\\controllers\\pages.php on line 27
+[Fri Jan 10 18:48:01 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Fri Jan 10 18:48:01 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\hmvc\\index.php:0
+[Fri Jan 10 18:48:01 2014] [error] [client 127.0.0.1] PHP   2. require_once() C:\\wamp\\www\\hmvc\\index.php:202
+[Fri Jan 10 18:48:01 2014] [error] [client 127.0.0.1] PHP   3. call_user_func_array() C:\\wamp\\www\\hmvc\\system\\core\\CodeIgniter.php:359
+[Fri Jan 10 18:48:01 2014] [error] [client 127.0.0.1] PHP   4. Pages->index() C:\\wamp\\www\\hmvc\\system\\core\\CodeIgniter.php:359
+[Wed Jan 15 17:06:24 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected ',' in C:\\wamp\\www\\hmvc\\application\\modules\\admin\\controllers\\pages.php on line 97, referer: http://local.hmvc.com/admin/pages/0/add-directory
+[Wed Jan 15 17:06:24 2014] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://local.hmvc.com/admin/pages/0/add-directory
+[Wed Jan 15 17:06:24 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\hmvc\\index.php:0, referer: http://local.hmvc.com/admin/pages/0/add-directory
+[Wed Jan 15 17:06:24 2014] [error] [client 127.0.0.1] PHP   2. require_once() C:\\wamp\\www\\hmvc\\index.php:202, referer: http://local.hmvc.com/admin/pages/0/add-directory
+[Wed Jan 15 17:29:55 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '(' in C:\\wamp\\www\\hmvc\\application\\modules\\admin\\models\\pages_model.php on line 73
+[Wed Jan 15 17:29:55 2014] [error] [client 127.0.0.1] PHP Stack trace:
+[Wed Jan 15 17:29:55 2014] [error] [client 127.0.0.1] PHP   1. {main}() C:\\wamp\\www\\hmvc\\index.php:0
+[Wed Jan 15 17:29:55 2014] [error] [client 127.0.0.1] PHP   2. require_once() C:\\wamp\\www\\hmvc\\index.php:202
+[Wed Jan 15 17:29:55 2014] [error] [client 127.0.0.1] PHP   3. Pages->__construct() C:\\wamp\\www\\hmvc\\system\\core\\CodeIgniter.php:308
+[Wed Jan 15 17:29:55 2014] [error] [client 127.0.0.1] PHP   4. MX_Loader->model() C:\\wamp\\www\\hmvc\\application\\modules\\admin\\controllers\\pages.php:10
+[Wed Jan 15 17:29:55 2014] [error] [client 127.0.0.1] PHP   5. Modules::load_file() C:\\wamp\\www\\hmvc\\application\\third_party\\MX\\Loader.php:206
